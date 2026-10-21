@@ -1,0 +1,20 @@
+* {
+font-family: 'Courier New', monospace;
+text-align: center
+    }
+#pagefotter {
+    background-color: black}
+    img {
+       max-width: 80%;
+       max-height: 80%;
+}
+.title {
+    color: #C0562A;
+}
+.centeralign {
+    text-align: center
+}
+p {
+    width: auto;
+    text-align: justify;
+        }
