@@ -1,20 +1,87 @@
 * {
 font-family: 'Courier New', monospace;
-text-align: center
     }
+body {
+    text-align: center;
+    margin: 10% 20%;
+    line-height: 1.2;
+}
+#bibliography {
+    text-align: justify;
+}
 #pagefotter {
-    background-color: black}
-    img {
-       max-width: 80%;
-       max-height: 80%;
+    background-color: black; 
+}
+footer {
+    margin-top: 45px;
+    padding: 10px;
+    border-top: 1px solid grey; 
+    font-size: 0.8em;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.list {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -1em;
+    text-align: left;
+    line-height: 1.5;
+}
+figure {
+    margin: 3em;
+    text-align: center;
+}
+figcaption {
+    font-size: 0.7em;
 }
 .title {
     color: #C0562A;
 }
+
+.navigation {
+    text-align: justify;
+}
+.topalign {
+    vertical-align: top;
+}
 .centeralign {
-    text-align: center
+    text-align: center;
 }
 p {
-    width: auto;
     text-align: justify;
         }
+table {
+    margin: 0 auto;
+    border: 1px solid black;
+    border-collapse: collapse; 
+}
+td, th {
+    padding: 10px;
+    border: 1px solid black
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  padding: 0.4rem 0;
+  transition: color 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+nav a:hover {
+  color: #C0562A;
+}
+
+nav:has(a:hover) a:not(:hover) {
+  opacity: 0.3;
+}
